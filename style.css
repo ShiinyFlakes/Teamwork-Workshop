@@ -1,0 +1,71 @@
+.verteilen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+a{
+    text-align: center;
+    width: 200px;
+   border: 1px solid rgb(0, 0, 0);
+   text-decoration: none;
+   background-color: gray;
+   color: white;
+}
+.align{
+    display: flex;
+    gap: 15px;
+}
+
+h1{
+    color: rgb(3, 3, 3);
+    text-align: center;
+}
+ul.gray {
+    border: 2px solid #e7e7e7;
+    background-color: #9b9b9b;
+}
+
+ul.horizontal {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+ul {
+    display: block;
+    list-style-type: none;
+    
+}
+
+
+iframe{
+    width: 500px;
+    height: 300px;
+}
+
+main {
+    width: 60vw;
+    margin: auto;
+}
+h2 {
+    font-size: 32px;
+}
+p, li, span {
+    font-size: 20px;
+}
+li {
+    margin-bottom: 1rem;
+}
+li::before:first-child {
+    margin-top: 1rem;
+}
+#Nachteile{
+    font-size: 2.5rem;
+}
+
+img{
+    width: 100%;
+    height: 400px;
+}
