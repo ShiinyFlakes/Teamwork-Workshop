@@ -1,0 +1,43 @@
+.verteilen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1{
+    color: rgb(3, 3, 3);
+    text-align: center;
+}
+ul.gray {
+    border: 2px solid #e7e7e7;
+    background-color: #f3f3f3;
+}
+
+ul.horizontal {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+ul {
+    display: block;
+    list-style-type: none;
+    
+}
+ul.gray li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.horizontal{
+    text-align: center;
+}
+iframe{
+    width: 500px;
+    height: 300px;
+}
+
