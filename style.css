@@ -1,0 +1,21 @@
+main {
+    width: 60vw;
+    margin: auto;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+p, li, span {
+    font-size: 20px;
+}
+
+li {
+    margin-bottom: 1rem;  
+}
+
+li::before:first-child {
+    margin-top: 1rem;
+
+}
